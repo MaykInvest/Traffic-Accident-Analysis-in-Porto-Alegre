@@ -44,6 +44,7 @@ An interactive heatmap was created using **Folium** to visualize accident densit
 This approach highlights areas with a higher concentration of accidents.
 
 > Note: Heatmap generation required the removal of missing geographic coordinates, as Folium does not support `NaN` values.
+
 ![alt text](heatmap.png)
 ---
 
@@ -54,6 +55,7 @@ To improve interpretability, a **MarkerCluster** visualization was implemented:
 - Prevents map overcrowding
 
 This visualization helps identify high-density zones while maintaining map clarity.
+
 ![alt text](cluster.png)
 ---
 
@@ -67,6 +69,7 @@ A bar chart was created to visualize the total number of traffic accidents per y
 
 This visualization provides a high-level overview of accident trends over time.
 
+![alt text](barplot.png)
 ---
 
 ## Conclusion
